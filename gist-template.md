@@ -51,7 +51,7 @@ We can look for certain characters or Character classes in a number of ways. In 
 
 
 ### OR Operator
-We define the 'OR' operator as the '|' element in a REGX. 
+We define the 'OR' operator as the '|' element in a REGX. I don't believe we have any in our REGX.
 
 ### Character Classes
 We use Charater Classes in REGX to identify a certain charatcer from a specific set of characters. 
@@ -65,19 +65,35 @@ Flags are used as an optional parameter to a REGREX that modifies its behaviour 
 in our REGX above the flag is g which stands for global searching. The G flag allows it to look for all their matches rather then just one.
 
 ### Grouping and Capturing
+Grouping and Capturing refers to grouping expressions to help us stay more organized and make it simpler to identify the characters that belong to a particular group
+we group these expressions using round parentheises. 
+ 
+ * In our REGX Example above we have 3 bracket expressions which are:  ([a-z0-9_.-]+), ([\da-z.-]+), and  ([a-z.]{2,6}).
 
 ### Bracket Expressions
+We use brackets expressions for characters that have a special meaning. The regex engine is instructed to search for character classes contained brackets.
+
+In our Email Address REGX EXAMPLE: it would be [a-z0-9_.-]+), ([\da-z.-]+), ([a-z.]{2,6}).
 
 ### Greedy and Lazy Match
+Greedy matches refers to the match being as long as possible wheres lazy match refers to our match being as short as possible ine our example for matching our Email Address REGX 
+we dont have either.
 
 ### Boundaries
+A word boundary \b is a position where one side is a word character and the other side is not a word character,
+ \b is called a boundary while ^ and $ are considered anchors. 
 
 ### Back-references
+We use Back-References when trying to match the same text as that was previously matched by a capturing group.
+
+* EXAMPLE: if you wanted to match a pair of opening and closing tags, and the text in between, If we put the opening tag into a backreference, we will be able to use the
+tag name for the closing tag as well.
 
 ### Look-ahead and Look-behind
+Theres look behind assertions  which are checking what is before your REGX match while look ahead assertions which means to check what is after your match and there is possitive and
+negative of both.
 
-## Author
-
+### Author
 Hi my names Jayden Taylor I am the author of this toturial and im currently in a boot camp with SMU working to complete my certificate to become a full-stack developer, 
 and if you would like to check out my github profile feel free to follow the link :) https://github.com/Jay1194.
 
