@@ -4,8 +4,8 @@ In this tutorial I will be giving a walk through on the functions and expression
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
-
+Today we will take a look at the components of a regular expression or (REGX) used when matching a Email Address. In an email address each chararcter has a set responisbility to validiate that the user is entering an email address in the correct format. The Email Address REGX looks like this: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/ and if your wondering how this all works 
+when it comes to email adresses the REGX is searching for two things one being the "@" and after that the "domain" example: gmail.
 ## Table of Contents
 
 - [Anchors](#anchors)
@@ -46,4 +46,6 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Hi my names Jayden Taylor I am the author of this toturial and im currently in a boot camp with SMU working to complete my certificate to become a full-stack developer, 
+and if you would like to check out my github profile feel free to follow the link :) https://github.com/Jay1194.
+
