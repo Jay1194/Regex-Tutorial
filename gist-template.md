@@ -1,6 +1,6 @@
-# Title (replace with your title)
+# Welcome To My Tutorial On Regex
 
-Introductory paragraph (replace this with your text)
+In this tutorial I will be giving a walk through on the functions and expressions of (Regex) also known as Regular Expression.This works well for extracting data from a specific body of code and can also be used as a validation tool. A regular expression (Regex) is a group of characters that, when used in a search algorithm or code, defines a particular type of search pattern.Regex can be used any time to query string-based data such as: Parsing user input, Examining server or program logs, Analyzing command line outputs, Handling text files with a consistent syntax,  Searching and refactoring code and more!
 
 ## Summary
 
